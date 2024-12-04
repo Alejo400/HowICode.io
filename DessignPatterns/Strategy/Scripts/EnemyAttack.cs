@@ -4,7 +4,7 @@ using UnityEngine;
 using EnemyBullet;
 using System.Collections.Generic;
 
-public class EnemyDistance : Enemy
+public class EnemyAttack
 {
     protected List<Coroutine> CoroutineAbility;
     [SerializeField] protected List<EnemyAbility<GameObject>> Abilities 
